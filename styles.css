@@ -1,0 +1,169 @@
+body {
+  color: #333;
+  font-family: Lato;
+}
+.page-title {
+  border-bottom: 2px solid;
+  border-color: #f64f00;
+}
+
+header {
+  padding-top: 50px;
+  border-bottom: #04587f solid 2px;
+  margin-bottom: 5%;
+}
+
+main {
+  border-style: dashed;
+  border-color: #6c6c6c;
+  border-radius: 20px;
+  padding: 0px 10px 10px 10px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+figure {
+  margin-left: 0px;
+}
+
+.portret {
+  width: 35%;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #6c6c6c;
+  background-color: #cecece;
+  margin: 10px 0px 10px 0px;
+}
+
+/* Lettertype */
+
+h1 {
+  font-family: Orbitron;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f64f00;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f64f00;
+  padding-top: 14px;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  color: #04587f;
+}
+
+h4 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  color: #04587f;
+}
+
+a {
+  color: #04587f;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f64f00;
+}
+
+ul {
+  list-style: square;
+}
+
+.blockquote {
+  margin: 1em 3em 1em 0.5em;
+  background-color: #f6f6f6;
+  border-left: 4px solid #f64f00;
+  padding: 0.5em 1em;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.blogpost {
+  width: 15%;
+  border: 1px solid rgb(53, 53, 53);
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav li a.active {
+  background-color: #f64f00;
+  color: #fff;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #f64f00;
+  color: white;
+}
+
+/*
+
+@media (min-width: 1024px) {
+  body {
+    background-color: aqua;
+    color: #bb1d1d;
+  }
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+}
+
+
+*/

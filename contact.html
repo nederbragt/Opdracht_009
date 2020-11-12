@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Contactformulier</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Robert-Jan</a></li>
+        <li><a href="patricia.html">Patricia</a></li>
+        <li><a href="willem.html">Willem</a></li>
+        <li><a href="aanvraag-recept.html">Aanvraag Recept</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Naam: <input type="text" name="naam" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label> 
+        </p>
+        <p>
+          <label>Opmerking: <textarea rows="5" cols="25" name="opmerking"></textarea></label>
+        </p>
+        <p>
+          <input type="submit" />
+        </p>
+      </form>
+  </body>
+</html>

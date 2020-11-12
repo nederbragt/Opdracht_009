@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aanvraag Recept op Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Aanvraag Recept</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Robert-Jan</a></li>
+        <li><a href="patricia.html">Patricia</a></li>
+        <li><a href="willem.html">Willem</a></li>
+        <li><a class="active" href="aanvraag-recept.html">Aanvraag Recept</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+      <form name="recept" method="POST" data-netlify="true">
+        <p>
+          <label>Naam: <input type="text" name="naam" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label> 
+        </p>
+        <p>
+          <label>Telefoon: <input type="tel" name="telefoon" /></label> 
+        </p>
+        <p>
+          <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label> 
+        </p>
+        <p>
+          Geslacht:<br/>
+          <label>Man: <input type="radio" id="man" name="gender" value="man" /></label> <label>Vrouw: <input type="radio" id="vrouw" name="gender" value="vrouw" /></label>
+        </p>
+        <p>
+          Favoriete keuken:<br/>
+          <p><label>Frans: <input type="checkbox" id="keuken1" name="keuken1" value="Frans" /></label></p>
+          <p><label>Italiaans: <input type="checkbox" id="keuken2" name="keuken2" value="Italiaans" /></label></p>
+          <p><label>Spaans: <input type="checkbox" id="keuken3" name="keuken3" value="Spaans" /></label></p>
+          <p><label>Aziatisch: <input type="checkbox" id="keuken4" name="keuken4" value="Aziatisch" /></label></p>
+        </p>
+        <p>
+          <label>Favoriete kleur: <input type="color" id="favcolor" name="favcolor" /></label> 
+        </p>       
+        <p>
+          Biografie:<br />
+          <textarea rows="8" cols="40" name="biografie"></textarea>
+        </p>
+        <p>
+          Upload Recept: <br />
+          <input type="file" id="recept" name="recept" />
+        </p>
+        <p>
+          <label for="receptpagina">Link naar je receptenpagina:</label>
+          <input type="url" id="receptpagina" name="receptpagina">
+        </p>   
+        <p>
+          <input type="reset" />  <input type="submit" />
+        </p>
+      </form>
+  </body>
+</html>
